@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="plateBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="220" stroke="url(#gold)" stroke-width="6" fill="none" opacity="0.6"/>
+  <!-- Russian License Plate Frame -->
+  <g transform="translate(46, 176)">
+    <rect width="420" height="160" rx="20" fill="#090d16" stroke="#334155" stroke-width="6"/>
+    <rect x="8" y="8" width="404" height="144" rx="14" fill="url(#plateBg)" stroke="#1e293b" stroke-width="4"/>
+    <!-- Divider -->
+    <line x1="305" y1="8" x2="305" y2="152" stroke="#0f172a" stroke-width="4"/>
+    <!-- Main text -->
+    <text x="35" y="105" font-family="'Roboto Condensed', Impact, sans-serif" font-weight="900" font-size="94" fill="#090d16" letter-spacing="-2">А 777 АА</text>
+    <!-- Region & RUS -->
+    <text x="355" y="85" text-anchor="middle" font-family="'Roboto Condensed', Impact, sans-serif" font-weight="900" font-size="64" fill="#090d16">77</text>
+    <text x="330" y="132" font-family="'Roboto Condensed', sans-serif" font-weight="900" font-size="22" fill="#090d16">RUS</text>
+    <!-- Flag -->
+    <rect x="372" y="114" width="28" height="18" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+    <rect x="372" y="120" width="28" height="6" fill="#2563eb"/>
+    <rect x="372" y="126" width="28" height="6" fill="#dc2626"/>
+  </g>
+  <!-- Crown Icon on top -->
+  <path d="M206 130 L226 90 L256 120 L286 90 L306 130 Z" fill="url(#gold)"/>
+  <circle cx="226" cy="85" r="5" fill="#fef08a"/>
+  <circle cx="256" cy="115" r="5" fill="#fef08a"/>
+  <circle cx="286" cy="85" r="5" fill="#fef08a"/>
+  <!-- C# Badge -->
+  <g transform="translate(186, 380)">
+    <rect width="140" height="42" rx="10" fill="#68217a" stroke="#a855f7" stroke-width="2"/>
+    <text x="70" y="28" text-anchor="middle" font-family="monospace" font-weight="800" font-size="22" fill="#ffffff">C# MAUI</text>
+  </g>
+</svg>

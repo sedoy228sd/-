@@ -1,0 +1,6 @@
+{
+  "name": "Генератор Номеров — C# & Mobile APK Tycoon",
+  "description": "Симулятор блатных автономеров России и мира с полноценной игрой и готовым проектом C# .NET MAUI для сборки Android APK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
